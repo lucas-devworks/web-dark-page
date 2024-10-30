@@ -1,0 +1,52 @@
+.container_card {
+    width: 300px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.paragrafo span {
+    font-size: 16px;
+}
+.paragrafo h3 {
+    font-size: 24px;
+}
+.paragrafo small {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container_card p {
+    font-size: 16px;
+}
+
+/* dark mode /////////////////*/
+.dark {
+    width: 300px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #393838;
+    color: #d9c8bb;
+}
+.dark .paragrafo h3 {
+    color: white;    
+}
+
+/* RESPONSIVE //////////////////////////////*/
+@media screen and (max-width: 768px) {
+        
+    .container_card, .dark{
+        width: 100%;
+        padding: 0;
+        font-size: 14px;
+    }
+
+}

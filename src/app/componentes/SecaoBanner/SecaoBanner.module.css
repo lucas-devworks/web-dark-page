@@ -1,0 +1,49 @@
+
+.container_banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.background {
+    width: 50%;
+    background-image: url('/banner.jpg'); /* OBS do gpt: Não se usa (/public/nome_da_imagem.png), mas sim, (/nome_da_imagem.jpg) direto */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #022144;
+}
+.titulo p {
+    font-size: 12px;
+}
+.titulo h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.titulo span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* DARK MODE STYLES ////////////////////////*/
+.dark {
+    background-color: #252525;
+}
+
+/* RESPONSIVE //////////////////////////////*/
+@media screen and (max-width: 768px) {
+    
+    .background {
+        display: none;
+    } .titulo {
+        width: 100%;
+    }
+
+}

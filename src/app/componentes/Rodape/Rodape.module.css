@@ -1,0 +1,58 @@
+.container_rodape {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+.paragrafo {
+    max-width: 600px;
+    color: #8b889e;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.container_redes {
+    max-width: 375px;
+}
+
+.lista_icons {
+    display: flex;
+    gap: 5px;
+}
+
+.lista_icons img {
+    width: 45px;
+    height: 45px;
+}
+
+.copy {
+    width: 100%;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8b889e;
+}
+.copy span {
+    color: #fad215;
+}
+
+/* dark mode ////////////////////////*/
+.dark {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+}
